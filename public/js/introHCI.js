@@ -17,9 +17,8 @@ function onServerResponse(data){
     labElement.css({'background': 'yellow'});
 }
 
-
 // Function to format the CSS selector
 function getLabElementId(id){
-    var labElementId = '#lab_' + id;
+    var labElementId = '#lab-' + id;
     return labElementId;
 }
